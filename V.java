@@ -20,17 +20,17 @@ public class V {
         
         a = new JPanel();
         a.setBackground(Color.BLUE);
-        a.setCursor(new Cursor(Cursor.HAND_CURSOR));//??
+        a.setCursor(new Cursor(Cursor.HAND_CURSOR));//trõ chuột dạng hand
         g.add(a);
         
         b = new JPanel();
         b.setBackground(Color.GREEN);
-        b.setCursor(new Cursor(Cursor.TEXT_CURSOR));//??
+        b.setCursor(new Cursor(Cursor.TEXT_CURSOR));//trõ chuột dạng text
         g.add(b);
         
         c = new JPanel();
         c.setBackground(Color.RED);
-        c.setCursor(new Cursor(Cursor.MOVE_CURSOR));
+        c.setCursor(new Cursor(Cursor.MOVE_CURSOR));//trõ chuột dạng move
         g.add(c);
         
         d = new JPanel();
